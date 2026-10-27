@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8eee3">
+  <title>Cartas para ti ♡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio">Carticas<span>♡</span></a>
+    <a class="nav-link" href="#mis-cartas">Mis cartas ↓</a>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="decoration note-left">Aunque estemos lejos,<br>te llevo conmigo. ♡</div>
+      <div class="decoration note-right">He guardado unas<br>palabras para ti…</div>
+      <div class="envelope-area">
+        <p class="eyebrow">Toca el sobre pues </p>
+        <button class="envelope-button" id="open-envelope" aria-label="Abrir mi última carta">
+          <span class="envelope" id="envelope">
+            <span class="envelope-back"></span>
+            <span class="letter-peek"></span>
+            <span class="envelope-front"></span>
+            <span class="envelope-flap"></span>
+            <span class="seal">♥</span>
+          </span>
+        </button>
+        <p class="tap-hint" id="tap-hint"></p>
+      </div>
+    </section>
+
+    <section class="letter-view hidden" id="letter-view" aria-live="polite">
+      <button class="back-link" id="back-to-home">← Volver a todas las cartas</button>
+      <article class="paper">
+        <div class="letter-date" id="letter-date"></div>
+        <div class="letter-content">
+          <h1 id="letter-title"></h1>
+          <div id="letter-body" class="letter-body"></div>
+          <p class="signature" id="letter-signature"></p>
+        </div>
+        <div class="paper-heart" aria-hidden="true">♡</div>
+      </article>
+    </section>
+
+    <section class="archive" id="mis-cartas">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Pensamientos</p>
+          <h2>Mis Carticas<span>♡</span></h2>
+        </div>
+        <p class="archive-note">Mis cartas.</p>
+      </div>
+      <div class="letter-grid" id="letter-grid"></div>
+    </section>
+  </main>
+
+  <footer id="siempre">
+    <span>A 2500km</span>
+    <strong>Gracias por existir</strong>
+    <span>Tú y yo, siempre ♡</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
