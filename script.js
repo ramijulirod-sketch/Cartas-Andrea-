@@ -8,7 +8,18 @@
   Nota: GitHub Pages es una web estática; escribir desde este navegador no publica cartas para ella.
 */
 const letters = [
-     
+
+  
+  {
+    date: "29 de octubre de 2026",
+    title: "My love ",
+    body: [
+      "Cada día que pasa es un día más cerca de ti, esperando a que llegues, siempre me pongo a pensar en cómo tenemos tanta conexión a distancia no me imagino en persona, yo nunca pensé que encontraría a una persona así la verdad, es como un sueño.",
+      "Mientras tanto solo nos queda esperar al día, por ahora solo me queda quererte y conocernos más te volviste totalmente mi vida."
+    ],
+    signature: "Te adoro Juliian",
+    icon: "♥"
+  },
   {
     date: "27 de octubre de 2026",
     title: "Rosarito",
